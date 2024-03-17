@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ORBITAL</string>
+    <string name="search_text">Search</string>
+    <string name="logo_name">ORBITAL</string>
+    <string name="welcome_to_space_world">Welcome To ORBITAL</string>
+    <string name="About">Open science is the movement to make scientific research an unhindered access transforming its reach to infinite . It empowers the open sharing of data, information, and knowledge within the scientific community and enhances wider public to accelerate scientific research and understandings.
+It escalates the collaborative culture ,embracing future development in technology that holds its stakes upon opening the chattels of sciences. Open science is a commitment to stand with important questions that don’t stand alone.
+    </string>
+    <string name="WhyDo">●  Broadens participation and fosters greater collaboration in scientific investigations by lowering the barriers to entry into scientific exploration
+\n●  Generates greater impact and more citations to scientific results
+    </string>
+    <string name="link">
+        For More Information\thttps://science.nasa.gov/researchers/open-science/
+    </string>
+    <string name="head1">
+       The James Webb Space Telescope,  is an astronomical observatory that represents a significant advancement in our quest to explore the cosmos. Named after James E. Webb ,this cutting-edge telescope is poised to revolutionize our understanding of the universe.
+the James Webb Space Telescope sees the universe in light that is invisible to human eyes. This light is called infrared radiation, and we can feel it as heat.
+    </string>
+    <string name="head2">
+        Telescope will enhance human eye to dig deep in cosmos , providing first colorful images of universe and tarantula nebula and neptune and its rings in decades.
+In October 2022, Webb captured a Wolf-Rayet star known as WR-140, this furthermore provided information regarding the time formation of dust coherence to the orbital period.
+The foremost magnificent achievement of webb include better resolution of “pillar of creation” providing resource for the formation of star.
+    </string>
+    <string name="head3">
+        Artemis 2 is the second mission of Artemis legacy of NASA , restarting human travel outside the blue sphere, in ORION spacecraft , outlined to launch in november 24.
+the 10-day flight will test NASA\'s foundational human deep space exploration capabilities, the voyage will include 4 passengers including a women .
+the mission is also planned to be the first crewed launch from Launch Complex 39B of the Kennedy Space Center since STS-116 in 2006.
+    </string>
+    <string name="head4">
+        Artemis 2 will be flying one canadian and three american becoming the first to fly astronauts to the vicinity of the moon , since APOLLO mission 1972.
+        Originally the The crewed flight was designated to capture samples from a captured asteroids in lunar orbit and now is plotted to take man to the farthest distance possible
+    </string>
+    <string name="head5">
+        The tagline of the Probe is “TOUCH THE SUN”, is an extraordinary spacecraft designed to embark on an audacious mission to study the closest celestial body to Earth.the suite of sophisticated instruments released itself from the formidable heat of  the corona.
+    </string>
+    <string name="head6">
+        Among the first findings from the Probe was strange flips, or switchbacks, in the magnetic field as the spacecraft approached the sun , it further provided information about magnetic funnel in the solar surface.
+        One of the primary objectives of the Solar Probe is to explore the origin and acceleration of the solar wind, emanating from the Sun.
+        With every orbit bringing it closer, the probe faces brutal heat and radiation to providing humanity with unprecedented observations, visiting the only star we can study up close.
+
+    </string>
+
+    <string name="AboutUS">Our team aims to provide access and educate research scholars about open science and its impact in the astrophysics community. We believe that by empowering students to use open science, we can help to create a more equitable and sustainable future for everyone.</string>
+    <string name="AboutUS1">This platform is designed to serve the requirements of astrophysics research scholars who seek comprehensive understanding of specific subjects. We understand that endless searching and scrolling can be frustrating, so we step in to offer you access to the precise topics you\'re looking for.</string>
+    <string name="ci1">NASA, the National Aeronautics and Space Administration, plays a crucial role in advancing our understanding of astrophysics by conducting various space missions and collecting vast amounts of scientific data related to celestial bodies, galaxies, and the universe as a whole. After understanding the impacts of open science the research scholars will get  detailed explanation of the opportunities for research in astrophysics using NASA\'s scientific information:\n</string>
+    <string name="ci2">1. Access to High-Quality Data: NASA provides access to a wealth of high-quality data collected from space telescopes, observatories, and space missions. This data includes images, spectra, and measurements of celestial objects, such as stars, planets, black holes, and distant galaxies. Researchers can use this data to study various astrophysical phenomena.</string>
+    <string name="ci3">2. Unique Observations: NASA\'s space-based instruments allow for observations that are not possible from Earth due to atmospheric interference. This enables researchers to study astronomical events and objects with unprecedented precision and clarity.\n</string>
+    <string name="ci4">3. Diverse Research Topics: NASA\'s data covers a wide range of astrophysical topics, including planetary science, exoplanet exploration, cosmology, astroparticle physics, and the study of the Sun. Researchers can choose from a diverse array of subjects for their investigations.\n\nInterdisciplinary Research: NASA\'s missions often involve collaboration between astrophysicists, planetary scientists, astronomers, and experts from various other fields. This interdisciplinary approach fosters innovative research and the development of new technologies.\n</string>
+    <string name="ci5">4. Open Access: Much of NASA\'s scientific data is made available to the public through online databases and archives. This open access policy encourages scientists worldwide to explore and analyze the data, leading to a broader and more collaborative research community.</string>
+    <string name="ci6">5. Innovation and Discovery: NASA\'s missions frequently lead to groundbreaking discoveries and the development of new theories and models in astrophysics. Researchers have the opportunity to contribute to these discoveries or formulate their hypotheses based on NASA\'s data.</string>
+    <string name="ci7">6.Inspiration for Future Missions: Analyzing NASA\'s data can also inspire new research questions and future space missions. Scientists often identify gaps in knowledge that can be addressed through the design and launch of specialized spacecraft.\n</string>
+    <string name="ci8">Methods to Measure Impact\n\n ●  We are focusing on the community of astrophysics, and specifically research scholars who either a. Are already working in this domain or want to but dont know where to start. \n\n ●  Citations are a reliable method of measuring impact as it indicates how many people referred to the given material and possibly, used it for further research\n</string>
+    <string name="fs1">●  Increased Collaboration: Open science will encourage greater collaboration among researchers, both within and across disciplines. This collaboration can lead to more innovative and comprehensive solutions to complex problems.\n\n ●  Open Access Publishing: Open access journals and repositories will continue to grow, ensuring that research findings are freely available to the global scientific community and the public. This promotes transparency and equitable access to knowledge.\n\n ●  Data Sharing: The sharing of research data will become more common, making it easier for scientists to build upon each other\'s work. This will lead to more robust and reproducible research.\n\n ●  Transparency and Reproducibility: Open science practices will prioritize transparency, making research methods, data, and code openly accessible. This will enhance the reproducibility of scientific studies.\n\n ●  Citizen Science: Open science will involve more citizen scientists and the general public in data collection and analysis. This can lead to the democratization of scientific research and increased public engagement.\n\n ●  Preprints and Rapid Dissemination: Preprint servers will play a significant role in quickly sharing research findings before formal peer review. This can accelerate the dissemination of knowledge.\n\n ●  Alternative Metrics: Traditional impact factors may be complemented or replaced by alternative metrics that better reflect the broader impact of research, such as citations, downloads, and societal relevance.\n\n ●  Open Educational Resources: Open educational resources (OER) will become more prevalent, reducing the cost of educational materials and increasing access to quality education.\n\n ●  Policy Changes: Governments and funding agencies are likely to implement policies that require researchers to adopt open science practices, further driving its adoption.\n\n ●  Ethical Considerations: As open science advances, ethical concerns related to data privacy, security, and intellectual property will need to be carefully addressed.\n</string>
+    <string name="fs2">The future of open science is marked by greater collaboration, transparency, and accessibility. It has the potential to accelerate scientific progress, increase the impact of research, and empower a wider community of stakeholders to participate in and benefit from the scientific process.</string>
+
+</resources>

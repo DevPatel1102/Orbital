@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_background">
+
+    <ImageView
+        android:layout_width="@dimen/_221sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_46sdp"
+        android:layout_marginTop="@dimen/_102sdp"
+        android:layout_marginEnd="@dimen/_46sdp"
+        android:layout_marginBottom="@dimen/_298sdp"
+        android:background="@drawable/logo_final" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_44sdp"
+        android:layout_marginEnd="@dimen/_42sdp"
+        android:layout_marginBottom="@dimen/_150sdp"
+        android:fontFamily="@font/orbitron_bold"
+        android:gravity="center"
+        android:text="@string/welcome_to_space_world"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30ssp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+</RelativeLayout>

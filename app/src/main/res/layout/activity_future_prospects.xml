@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <!-- Top Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_12sdp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/leftback"
+            android:layout_width="@dimen/_46sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:src="@drawable/leficon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text="ORBITAL"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/orbital_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/_46sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:padding="@dimen/_4sdp"
+            android:src="@drawable/menu_icon" />
+    </LinearLayout>
+
+    <!-- Content Inside ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/_6sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="Future Prospects"
+                android:fontFamily="@font/orbitron_bold"
+                android:textColor="#000000"
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:fontFamily="serif"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="@dimen/_7sdp"
+                android:paddingLeft="@dimen/_6sdp"
+                android:paddingTop="@dimen/_12sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:scrollbarStyle="insideOverlay"
+                android:text="@string/fs1"
+                android:textColor="#000000"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:fontFamily="serif"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="@dimen/_8sdp"
+                android:paddingLeft="@dimen/_6sdp"
+                android:paddingTop="@dimen/_12sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:scrollbarStyle="insideOverlay"
+                android:text="@string/fs2"
+                android:textColor="#000000"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="normal" />
+            <TextView
+                style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:fontFamily="serif"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="@dimen/_8sdp"
+                android:paddingLeft="@dimen/_6sdp"
+                android:paddingTop="@dimen/_12sdp"
+                android:paddingRight="@dimen/_6sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:scrollbarStyle="insideOverlay"
+                android:text="For More Information"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Link1"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/_20sdp"
+                android:background="@color/design_default_color_primary_dark"
+                android:text="Link 1"
+                android:layout_marginBottom="@dimen/_12sdp">
+            </Button>
+            <Button
+                android:id="@+id/Link2"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/_20sdp"
+                android:background="@color/design_default_color_primary_dark"
+                android:text="Link 2"
+                android:layout_marginBottom="@dimen/_12sdp">
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

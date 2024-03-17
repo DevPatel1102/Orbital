@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toqols="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_12sdp"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/leftback"
+            android:layout_width="@dimen/_46sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:src="@drawable/leficon" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text="ORBITAL"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/orbital_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/_46sdp"
+            android:layout_height="@dimen/_46sdp"
+            android:padding="@dimen/_4sdp"
+            android:src="@drawable/menu_icon" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp">
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:fontFamily="@font/orbitron_bold"
+            android:text="Breakthrough"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_28ssp" />
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Horizontal LinearLayout for category cards side by side -->
+
+            <LinearLayout
+                android:id="@+id/JamesWeb"
+                android:layout_width="@dimen/_290sdp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/jamesbg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="277dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="James Webb"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_30ssp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ARTEMIS2"
+                android:layout_width="@dimen/_290sdp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/artimes"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="198dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_75sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="ARTEMIS II"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_30ssp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/SolarProbe"
+                android:layout_width="@dimen/_290sdp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/solarprbe_banner"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="277dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Solar Probe"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_30ssp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/MoxieMarsOS"
+                android:layout_width="@dimen/_290sdp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:background="@drawable/marsrover"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="277dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_45sdp"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="MOXIE Mars"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_30ssp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
